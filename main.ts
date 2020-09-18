@@ -978,6 +978,8 @@ namespace powerbrick {
     //% group="RGB"
     export function rgbConnect(port: Ports) {
         rgbPin = PortDigi[port][0];
+        
+        showColor(packRGB(0,0,0));
     }
 
     /**
